@@ -57,7 +57,7 @@ end
 def ask_again
   prompt("Would you like to perform another calculation? (Y or N)")
   response = Kernel.gets().chomp().downcase()
-  response == 'y' ? true : false
+  response == 'y'
 end
 
 
